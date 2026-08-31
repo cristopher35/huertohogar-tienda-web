@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contacto - HuertoHogar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-marca">
+        <img src="img/logo-huertohogar.jpg" alt="Logo HuertoHogar" class="logo" />
+        <div>
+          <h1>HuertoHogar</h1>
+          <p>Del campo al hogar</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="registro.html">Regístrate</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contáctanos</h2>
+        <p>¿Tienes dudas sobre tu pedido o algún producto? Escríbenos.</p>
+
+        <form id="form-contacto" novalidate>
+          <div class="campo">
+            <label for="nombre-contacto">Nombre</label>
+            <input type="text" id="nombre-contacto" name="nombre" autocomplete="name" required />
+            <span class="error" id="error-nombre-contacto"></span>
+          </div>
+
+          <div class="campo">
+            <label for="email-contacto">Correo electrónico</label>
+            <input type="email" id="email-contacto" name="email" autocomplete="email" required />
+            <span class="error" id="error-email-contacto"></span>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje-contacto">Mensaje</label>
+            <textarea id="mensaje-contacto" name="mensaje" rows="5" required></textarea>
+            <span class="error" id="error-mensaje-contacto"></span>
+          </div>
+
+          <button type="submit" class="boton">Enviar mensaje</button>
+          <p id="mensaje-exito-contacto" class="mensaje-exito" hidden>
+            ¡Gracias! Tu mensaje fue enviado, te responderemos pronto.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Puntos de venta: Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar, Valparaíso y Concepción.</p>
+      <p>&copy; 2026 HuertoHogar</p>
+    </footer>
+
+    <script src="js/validacion.js"></script>
+  </body>
+</html>
