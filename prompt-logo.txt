@@ -1,0 +1,31 @@
+PROMPT PARA GENERAR EL LOGO (SOLO EL ÍCONO, SIN TEXTO) - HUERTOHOGAR
+Usar en Midjourney, DALL-E / ChatGPT, Bing Image Creator, Leonardo.ai, etc.
+Guardar como: img/logo-huertohogar.png
+
+IMPORTANTE: pide el ícono SIN texto. Las IA de imágenes casi siempre
+escriben mal las palabras dentro de un logo (letras borrosas o mal
+escritas). El texto "HuertoHogar / Del campo al hogar" ya lo tenemos
+resuelto como texto real en el encabezado del sitio (más nítido, más
+accesible y más liviano que una imagen). Así que solo generamos el
+símbolo/ícono, y el texto se queda tal como está en el HTML.
+
+------------------------------------------------------------
+PROMPT:
+
+"Ícono de logo minimalista tipo flat design, forma de una casa simple
+vista de frente cuyo interior contiene una canasta con vegetales frescos
+(tomate, pimiento, hojas verdes), con dos pequeños árboles estilizados a
+los lados del techo y una gota u hoja verde sobre el techo. Paleta de
+colores: verde esmeralda (#2E8B57) para la casa y los árboles, marrón
+tierra (#8B4513) para detalles de la canasta, toques de amarillo mostaza
+(#FFD700) para acentos pequeños. Diseño limpio, geométrico, estilo
+ícono/insignia vectorial, líneas simples, sin texto, sin letras, sin
+palabras, fondo transparente o blanco liso, alta resolución, formato
+cuadrado."
+
+------------------------------------------------------------
+FORMATO RECOMENDADO: PNG con fondo transparente, cuadrado (1:1).
+
+Cuando lo tengas guardado en img/logo-huertohogar.png, avísame y lo
+agrego al <header> de las 5 páginas, junto al texto "HuertoHogar" que ya
+existe.
