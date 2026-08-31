@@ -35,24 +35,17 @@ usuarios y contacto.
 
 No requiere instalación ni servidor: basta con abrir `index.html` en el navegador.
 
-## Contenido y fidelidad a los requerimientos
+## Notas
 
-Todo el contenido textual (misión, visión, descripciones de categorías, precios,
-stock y descripciones de producto) proviene directamente del documento de
-requerimientos entregado por HuertoHogar. No se inventó información de negocio.
-
-Excepciones explícitas:
-
-- **PO003 (Quinua Orgánica)** y **PL001 (Leche Entera)** no tenían precio/stock/
-  descripción en el documento entregado. Quinua Orgánica no se incluyó en el
-  catálogo; Leche Entera se incluyó marcando explícitamente esos datos como "no
-  especificado en el documento".
-- El documento menciona *"más de 9 puntos"* de venta pero solo nombra 7 ciudades
-  (Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar, Valparaíso,
-  Concepción) — son las únicas que se muestran, no se inventaron las restantes.
-- El logo y las fotografías de productos fueron generados con herramientas de IA
-  (prompts incluidos en este repositorio) ya que no se contaba con material
-  fotográfico real del cliente.
+- El catálogo no incluye Quinua Orgánica (PO003): el documento de requerimientos
+  no especifica su precio ni stock. Leche Entera (PL001) sí se muestra, con esos
+  datos marcados como pendientes de confirmar con el cliente.
+- El cliente menciona presencia en "más de 9 puntos" de venta, pero solo entrega
+  7 ciudades (Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar,
+  Valparaíso, Concepción); son las que se muestran en el sitio.
+- El logo y las fotografías de producto se generaron con herramientas de IA
+  (prompts incluidos en este repositorio), a la espera de material fotográfico
+  propio del cliente.
 
 ## Pendientes
 
