@@ -1,12 +1,11 @@
 # HuertoHogar - Tienda Web
 
-Proyecto práctico para la asignatura **Desarrollo Fullstack II (DSY1104)**, Duoc UC —
-Evaluación Formativa N°1: *"Creando mi primera tienda web"*, desarrollado en base al
-caso **HuertoHogar** (Forma A).
+Sitio web desarrollado para **HuertoHogar**, tienda online chilena dedicada a
+llevar productos frescos del campo directamente a sus clientes, en base al
+documento de requerimientos y estándares de diseño proporcionado por la empresa.
 
-HuertoHogar es una tienda online chilena dedicada a llevar productos frescos del
-campo directamente a sus clientes. Este sitio implementa su presencia web: catálogo
-de productos, registro de usuarios y contacto.
+El sitio implementa su presencia web: catálogo de productos, registro de
+usuarios y contacto.
 
 ## Tecnologías utilizadas
 
@@ -36,32 +35,32 @@ de productos, registro de usuarios y contacto.
 
 No requiere instalación ni servidor: basta con abrir `index.html` en el navegador.
 
-## Contenido y fidelidad al caso
+## Contenido y fidelidad a los requerimientos
 
 Todo el contenido textual (misión, visión, descripciones de categorías, precios,
-stock y descripciones de producto) proviene directamente del documento del caso
-**"Forma A: Caso HuertoHogar"**. No se inventó información de negocio.
+stock y descripciones de producto) proviene directamente del documento de
+requerimientos entregado por HuertoHogar. No se inventó información de negocio.
 
 Excepciones explícitas:
 
 - **PO003 (Quinua Orgánica)** y **PL001 (Leche Entera)** no tenían precio/stock/
-  descripción en el documento del caso. Quinua Orgánica no se incluyó en el
+  descripción en el documento entregado. Quinua Orgánica no se incluyó en el
   catálogo; Leche Entera se incluyó marcando explícitamente esos datos como "no
-  especificado en el documento del caso".
+  especificado en el documento".
 - El documento menciona *"más de 9 puntos"* de venta pero solo nombra 7 ciudades
   (Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar, Valparaíso,
   Concepción) — son las únicas que se muestran, no se inventaron las restantes.
 - El logo y las fotografías de productos fueron generados con herramientas de IA
   (prompts incluidos en este repositorio) ya que no se contaba con material
-  fotográfico real del caso.
+  fotográfico real del cliente.
 
 ## Pendientes
 
 - [ ] Video institucional embebido en `nosotros.html` (placeholder visible en la página)
-- [ ] Datos de precio/stock de Leche Entera y Quinua Orgánica, si el docente los
+- [ ] Datos de precio/stock de Leche Entera y Quinua Orgánica, si el cliente los
       proporciona
 
-## Pauta de evaluación cubierta
+## Requisitos cubiertos
 
 - Estructura HTML5 semántica ✅
 - Hipervínculos, imágenes, botones y formularios funcionales ✅
