@@ -48,7 +48,6 @@ No requiere instalación ni servidor: basta con abrir `index.html` en el navegad
 
 ## Pendientes
 
-- [ ] Video institucional embebido en `nosotros.html` (placeholder visible en la página)
 - [ ] Datos de precio/stock de Leche Entera y Quinua Orgánica, si el cliente los
       proporciona
 
@@ -56,8 +55,8 @@ No requiere instalación ni servidor: basta con abrir `index.html` en el navegad
 
 - Estructura HTML5 semántica ✅
 - Hipervínculos, imágenes, botones y formularios funcionales ✅
+- Video institucional embebido ✅
 - Páginas interconectadas ✅
 - Hoja de estilos CSS externa aplicada consistentemente ✅
 - Validación de formularios en JavaScript con mensajes de error específicos ✅
 - Repositorio Git con commits descriptivos, subido a GitHub ✅
-- Video embebido ⏳ pendiente
