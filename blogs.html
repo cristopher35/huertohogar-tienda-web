@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blogs - HuertoHogar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-marca">
+        <img src="img/logo-huertohogar.jpg" alt="Logo HuertoHogar" class="logo" />
+        <div>
+          <h1>HuertoHogar</h1>
+          <p>Del campo al hogar</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li id="nav-sesion"><a href="login.html">Iniciar sesión</a></li>
+          <li><a href="registro.html">Regístrate</a></li>
+          <li><a href="carrito.html" class="carrito-link">🛒 Carrito (<span id="carrito-contador">0</span>)</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Noticias importantes</h2>
+        <div id="lista-blogs" class="blogs-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Puntos de venta: Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar, Valparaíso y Concepción.</p>
+      <p>&copy; 2026 HuertoHogar</p>
+    </footer>
+
+    <script src="js/utilidades.js"></script>
+    <script src="js/productos-data.js"></script>
+    <script src="js/usuarios-data.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/blogs-data.js"></script>
+    <script src="js/blogs.js"></script>
+  </body>
+</html>
