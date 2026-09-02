@@ -1,0 +1,64 @@
+PROMPTS PARA GENERAR EL VIDEO INSTITUCIONAL - HUERTOHOGAR
+Usar en Sora, Runway (Gen-3/Gen-4), Pika, Kling, Luma Dream Machine, etc.
+
+CÓMO ARMAR EL VIDEO:
+Estos generadores funcionan mejor con clips cortos (5-10 seg) y una sola idea
+por clip, no con "el video institucional completo" de una vez. La idea es:
+1. Generar las 4 escenas de abajo por separado.
+2. Unirlas en orden en un editor simple (CapCut, Clipchamp, Canva Video, o
+   incluso el editor de fotos de Windows).
+3. Agregar el logo y el texto ("HuertoHogar - Del campo al hogar") ENCIMA en
+   el editor, no pedírselo a la IA de video (igual que con las fotos: el texto
+   generado por IA suele salir mal escrito o distorsionado).
+4. Exportar en formato horizontal (16:9), subirlo a YouTube (puede ser "No
+   listado" si no quieres que sea público) y pasarme el link para embeberlo
+   en nosotros.html.
+
+ESTILO BASE (agregar a cada prompt para mantener consistencia):
+"Video corto, estilo cálido y natural, luz de día suave, paleta de colores
+tierra y verdes, cámara estable con movimiento lento, alta calidad, sin
+texto ni logos en pantalla, formato horizontal 16:9."
+
+------------------------------------------------------------
+ESCENA 1 - El huerto
+
+"Toma a nivel de suelo de un huerto verde y frondoso en el campo chileno al
+amanecer, hileras de cultivos frescos de verduras, luz dorada suave, una
+leve brisa mueve las hojas, la cámara se desplaza lentamente hacia adelante
+entre los cultivos. Video corto, estilo cálido y natural, luz de día suave,
+paleta de colores tierra y verdes, cámara estable con movimiento lento,
+alta calidad, sin texto ni logos en pantalla, formato horizontal 16:9."
+
+------------------------------------------------------------
+ESCENA 2 - La cosecha
+
+"Primer plano de las manos de un agricultor cosechando manzanas rojas
+frescas de un árbol y colocándolas en una cesta de mimbre junto a otras
+verduras, luz natural cálida de atardecer, movimiento de cámara lento y
+suave. Video corto, estilo cálido y natural, luz de día suave, paleta de
+colores tierra y verdes, cámara estable con movimiento lento, alta calidad,
+sin texto ni logos en pantalla, formato horizontal 16:9."
+
+------------------------------------------------------------
+ESCENA 3 - La entrega
+
+"Una caja de cartón con frutas y verduras frescas es entregada en la puerta
+de una casa; una familia sonriente la recibe con cariño, ambiente cálido y
+hogareño, luz suave de tarde, cámara estática con un leve acercamiento.
+Video corto, estilo cálido y natural, luz de día suave, paleta de colores
+tierra y verdes, cámara estable con movimiento lento, alta calidad, sin
+texto ni logos en pantalla, formato horizontal 16:9."
+
+------------------------------------------------------------
+ESCENA 4 - La mesa familiar
+
+"Una mesa de madera clara con una canasta de frutas y verduras frescas; una
+familia prepara una ensalada junta en una cocina luminosa, ambiente feliz y
+saludable, luz natural suave, cámara estática con leve movimiento. Video
+corto, estilo cálido y natural, luz de día suave, paleta de colores tierra
+y verdes, cámara estable con movimiento lento, alta calidad, sin texto ni
+logos en pantalla, formato horizontal 16:9."
+
+------------------------------------------------------------
+Cuando tengas el video final subido a YouTube (o Vimeo), pásame el link y lo
+embebo en nosotros.html reemplazando el recuadro placeholder actual.
