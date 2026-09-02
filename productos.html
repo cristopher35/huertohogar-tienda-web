@@ -25,8 +25,11 @@
           <li><a href="index.html">Inicio</a></li>
           <li><a href="productos.html">Productos</a></li>
           <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="registro.html">Regístrate</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
           <li><a href="contacto.html">Contacto</a></li>
+          <li id="nav-sesion"><a href="login.html">Iniciar sesión</a></li>
+          <li><a href="registro.html">Regístrate</a></li>
+          <li><a href="carrito.html" class="carrito-link">🛒 Carrito (<span id="carrito-contador">0</span>)</a></li>
         </ul>
       </nav>
     </header>
@@ -41,47 +44,7 @@
           del campo a tu hogar. Estas frutas se cultivan y cosechan en el
           punto óptimo de madurez para asegurar su sabor y frescura.
         </p>
-        <div class="productos-grid">
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/manzanas-fuji.jpg" alt="Manzanas Fuji" />
-            </div>
-            <h4>FR001 - Manzanas Fuji</h4>
-            <p class="precio">$1.200 CLP por kilo</p>
-            <p class="stock">Stock: 150 kilos</p>
-            <p>
-              Manzanas Fuji crujientes y dulces, cultivadas en el Valle del
-              Maule. Perfectas para meriendas saludables o como ingrediente
-              en postres.
-            </p>
-          </article>
-
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/naranjas-valencia.jpg" alt="Naranjas Valencia" />
-            </div>
-            <h4>FR002 - Naranjas Valencia</h4>
-            <p class="precio">$1.000 CLP por kilo</p>
-            <p class="stock">Stock: 200 kilos</p>
-            <p>
-              Jugosas y ricas en vitamina C, estas naranjas Valencia son
-              ideales para zumos frescos y refrescantes.
-            </p>
-          </article>
-
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/platanos-cavendish.jpg" alt="Plátanos Cavendish" />
-            </div>
-            <h4>FR003 - Plátanos Cavendish</h4>
-            <p class="precio">$800 CLP por kilo</p>
-            <p class="stock">Stock: 250 kilos</p>
-            <p>
-              Plátanos maduros y dulces, perfectos para el desayuno o como
-              snack energético. Ricos en potasio y vitaminas.
-            </p>
-          </article>
-        </div>
+        <div class="productos-grid" id="grid-frutas"></div>
       </section>
 
       <section id="verduras">
@@ -91,46 +54,7 @@
           de pesticidas ni químicos, garantizando un sabor auténtico y
           natural.
         </p>
-        <div class="productos-grid">
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/zanahorias-organicas.jpg" alt="Zanahorias Orgánicas" />
-            </div>
-            <h4>VR001 - Zanahorias Orgánicas</h4>
-            <p class="precio">$900 CLP por kilo</p>
-            <p class="stock">Stock: 100 kilos</p>
-            <p>
-              Zanahorias crujientes cultivadas sin pesticidas en la Región de
-              O'Higgins. Excelente fuente de vitamina A y fibra.
-            </p>
-          </article>
-
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/espinacas-frescas.jpg" alt="Espinacas Frescas" />
-            </div>
-            <h4>VR002 - Espinacas Frescas</h4>
-            <p class="precio">$700 CLP por bolsa de 500g</p>
-            <p class="stock">Stock: 80 bolsas</p>
-            <p>
-              Espinacas frescas y nutritivas, perfectas para ensaladas y
-              batidos verdes, cultivadas bajo prácticas orgánicas.
-            </p>
-          </article>
-
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/pimientos-tricolores.jpg" alt="Pimientos Tricolores" />
-            </div>
-            <h4>VR003 - Pimientos Tricolores</h4>
-            <p class="precio">$1.500 CLP por kilo</p>
-            <p class="stock">Stock: 120 kilos</p>
-            <p>
-              Pimientos rojos, amarillos y verdes, ideales para salteados y
-              platos coloridos. Ricos en antioxidantes y vitaminas.
-            </p>
-          </article>
-        </div>
+        <div class="productos-grid" id="grid-verduras"></div>
       </section>
 
       <section id="organicos">
@@ -140,20 +64,7 @@
           naturales y procesados de manera responsable para mantener sus
           beneficios saludables.
         </p>
-        <div class="productos-grid">
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/miel-organica.jpg" alt="Miel Orgánica HuertoHogar" />
-            </div>
-            <h4>PO001 - Miel Orgánica</h4>
-            <p class="precio">$5.000 CLP por frasco de 500g</p>
-            <p class="stock">Stock: 50 frascos</p>
-            <p>
-              Miel pura y orgánica producida por apicultores locales. Rica en
-              antioxidantes y con un sabor inigualable.
-            </p>
-          </article>
-        </div>
+        <div class="productos-grid" id="grid-organicos"></div>
       </section>
 
       <section id="lacteos">
@@ -164,16 +75,7 @@
           una gama de leches, yogures y otros derivados que conservan su
           frescura y sabor auténtico.
         </p>
-        <div class="productos-grid">
-          <article class="producto">
-            <div class="producto-img">
-              <img src="img/leche-entera.jpg" alt="Leche Entera HuertoHogar" />
-            </div>
-            <h4>PL001 - Leche Entera</h4>
-            <p class="precio precio-pendiente">Precio no especificado en el documento del caso</p>
-            <p class="stock">Stock no especificado en el documento del caso</p>
-          </article>
-        </div>
+        <div class="productos-grid" id="grid-lacteos"></div>
       </section>
     </main>
 
@@ -186,5 +88,12 @@
       <p>Puntos de venta: Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar, Valparaíso y Concepción.</p>
       <p>&copy; 2026 HuertoHogar</p>
     </footer>
+
+    <script src="js/utilidades.js"></script>
+    <script src="js/productos-data.js"></script>
+    <script src="js/usuarios-data.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/productos-listado.js"></script>
   </body>
 </html>
