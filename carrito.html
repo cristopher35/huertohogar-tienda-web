@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mi carrito - HuertoHogar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-marca">
+        <img src="img/logo-huertohogar.jpg" alt="Logo HuertoHogar" class="logo" />
+        <div>
+          <h1>HuertoHogar</h1>
+          <p>Del campo al hogar</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li id="nav-sesion"><a href="login.html">Iniciar sesión</a></li>
+          <li><a href="registro.html">Regístrate</a></li>
+          <li><a href="carrito.html" class="carrito-link">🛒 Carrito (<span id="carrito-contador">0</span>)</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Mi carrito de compras</h2>
+        <div class="carrito-layout">
+          <div id="items-carrito" class="carrito-items"></div>
+          <div class="carrito-resumen">
+            <p class="carrito-total">Total: <span id="total-carrito">$0</span></p>
+            <form id="form-cupon">
+              <label for="cupon">Ingresa tu cupón de descuento</label>
+              <div class="cupon-fila">
+                <input type="text" id="cupon" name="cupon" />
+                <button type="submit" class="boton boton-secundario">Aplicar</button>
+              </div>
+              <p id="mensaje-cupon" class="error"></p>
+            </form>
+            <button type="button" id="boton-pagar" class="boton">Pagar</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Puntos de venta: Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar, Valparaíso y Concepción.</p>
+      <p>&copy; 2026 HuertoHogar</p>
+    </footer>
+
+    <script src="js/utilidades.js"></script>
+    <script src="js/productos-data.js"></script>
+    <script src="js/usuarios-data.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/carrito-pagina.js"></script>
+  </body>
+</html>
