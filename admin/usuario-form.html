@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Usuario - Administrador HuertoHogar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="admin-layout">
+      <aside class="admin-sidebar">
+        <div class="admin-sidebar-marca">
+          <img src="../img/logo-huertohogar.jpg" alt="Logo HuertoHogar" class="logo" />
+          <span>HuertoHogar</span>
+        </div>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="productos.html">Productos</a>
+          <a href="usuarios.html">Usuarios</a>
+          <a href="../index.html">Volver a la tienda</a>
+          <a href="#" id="link-cerrar-sesion-admin">Cerrar sesión</a>
+        </nav>
+      </aside>
+      <main class="admin-content">
+        <h2 id="titulo-form-usuario">Nuevo usuario</h2>
+
+        <form id="form-usuario-admin" novalidate>
+          <div class="campo">
+            <label for="run">RUN (sin puntos ni guion)</label>
+            <input type="text" id="run" name="run" placeholder="190110222" required />
+            <span class="error" id="error-run"></span>
+          </div>
+
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="50" />
+            <span class="error" id="error-nombre"></span>
+          </div>
+
+          <div class="campo">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" required maxlength="100" />
+            <span class="error" id="error-apellidos"></span>
+          </div>
+
+          <div class="campo">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" placeholder="nombre@duoc.cl / @gmail.com" required maxlength="100" />
+            <span class="error" id="error-correo"></span>
+          </div>
+
+          <div class="campo">
+            <label for="password">Contraseña (4 a 10 caracteres)</label>
+            <input type="password" id="password" name="password" minlength="4" maxlength="10" />
+            <span class="error" id="error-password"></span>
+          </div>
+
+          <div class="campo">
+            <label for="password2">Confirmar contraseña</label>
+            <input type="password" id="password2" name="password2" />
+            <span class="error" id="error-password2"></span>
+          </div>
+
+          <div class="campo">
+            <label for="fechaNacimiento">Fecha de nacimiento (opcional)</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" />
+          </div>
+
+          <div class="campo">
+            <label for="tipo">Tipo de usuario</label>
+            <select id="tipo" name="tipo" required>
+              <option value="">-- Seleccione --</option>
+              <option value="Administrador">Administrador</option>
+              <option value="Vendedor">Vendedor</option>
+              <option value="Cliente">Cliente</option>
+            </select>
+            <span class="error" id="error-tipo"></span>
+          </div>
+
+          <div class="campo">
+            <label for="region">Región</label>
+            <select id="region" name="region">
+              <option value="">-- Seleccione la región --</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="comuna">Comuna</label>
+            <select id="comuna" name="comuna">
+              <option value="">-- Seleccione la comuna --</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion" required maxlength="300" />
+            <span class="error" id="error-direccion"></span>
+          </div>
+
+          <button type="submit" class="boton">Guardar usuario</button>
+          <p id="mensaje-exito-usuario" class="mensaje-exito" hidden>Usuario guardado correctamente.</p>
+        </form>
+      </main>
+    </div>
+
+    <script src="../js/utilidades.js"></script>
+    <script src="../js/productos-data.js"></script>
+    <script src="../js/usuarios-data.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/regiones.js"></script>
+    <script src="../js/validacion.js"></script>
+    <script src="../js/admin-usuarios.js"></script>
+    <script>
+      Auth.requerirRol(["Administrador"], "../login.html");
+    </script>
+  </body>
+</html>
