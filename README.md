@@ -1,5 +1,7 @@
 # HuertoHogar - Tienda Web
 
+🔗 **Ver el sitio en línea:** https://cristopher35.github.io/huertohogar-tienda-web/
+
 Sitio web desarrollado para **HuertoHogar**, tienda online chilena dedicada a
 llevar productos frescos del campo directamente a sus clientes, en base al
 documento de requerimientos y estándares de diseño proporcionado por la empresa.
@@ -26,9 +28,7 @@ usuarios y contacto.
 │   └── styles.css       Hoja de estilos externa (paleta e identidad visual HuertoHogar)
 ├── js/
 │   └── validacion.js    Validación de los formularios de registro y contacto
-├── img/                 Logo, banner y fotografías de productos
-├── prompt-logo.txt              Prompt usado para generar el logo con IA
-└── prompts-fotos-productos.txt  Prompts usados para generar las fotos de productos con IA
+└── img/                 Logo, banner y fotografías de productos
 ```
 
 ## Cómo verlo
@@ -43,9 +43,8 @@ No requiere instalación ni servidor: basta con abrir `index.html` en el navegad
 - El cliente menciona presencia en "más de 9 puntos" de venta, pero solo entrega
   7 ciudades (Santiago, Puerto Montt, Villarica, Nacimiento, Viña del Mar,
   Valparaíso, Concepción); son las que se muestran en el sitio.
-- El logo y las fotografías de producto se generaron con herramientas de IA
-  (prompts incluidos en este repositorio), a la espera de material fotográfico
-  propio del cliente.
+- El logo y las fotografías de producto se generaron con herramientas de IA, a
+  la espera de material fotográfico propio del cliente.
 
 ## Pendientes
 
